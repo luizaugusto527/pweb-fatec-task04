@@ -155,7 +155,7 @@ input[type="submit"]{
     flex-direction: column;
     padding-left: 50px;
 }
-input[type="text"],select{
+input[type="text"],input[type="email"],input[type="tel"],select{
     max-width: 350px;
     height: 40px;
     outline: 0;
@@ -245,6 +245,12 @@ footer i{
         margin-top: 20px;
         width: 100%;
         margin: 0 auto;
+    }
+    .promotion h1{
+        font-size: 7vw;
+    }
+    .promotion h3{
+        font-size: 6vw;
     }
 
 }

@@ -134,7 +134,7 @@ img{
     flex-direction: column;
     padding-left: 50px;
 }
-input[type="text"]{
+input[type="text"],input[type="email"],input[type="tel"]{
     max-width: 350px;
     height: 40px;
     outline: 0;
@@ -192,4 +192,12 @@ i{
    iframe{
        width: 450px;
    }
+}
+@media screen and (max-width:590px){
+    .promotion h1{
+        font-size: 7vw;
+    }
+    .promotion h3{
+        font-size: 6vw;
+    }
 }
